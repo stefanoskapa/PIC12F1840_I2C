@@ -1,0 +1,63 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Wed Jan 18 19:11:45 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000ca
+                   .cinit    romdata   0x000065    program   0x000004
+      .config_8007_MAIN.O       code   0x008007    program   0x000002
+      .config_8008_MAIN.O       code   0x008008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000066      
+                            0x008007    0x008008      
+            105 out of 4359 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     INIT   0x000029    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_READ_BYTE   0x000043    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_SEND_BYTE   0x00003e    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_SEND_NACK   0x000055    program     static C:\Users\Stefanos\i2c\main.asm
+        MSSP_SEND_RESTART   0x00005d    program     static C:\Users\Stefanos\i2c\main.asm
+          MSSP_SEND_START   0x000059    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_SEND_STOP   0x000061    program     static C:\Users\Stefanos\i2c\main.asm
+                MSSP_WAIT   0x00004c    program     static C:\Users\Stefanos\i2c\main.asm
+            MSSP_WAIT_ACK   0x000051    program     static C:\Users\Stefanos\i2c\main.asm
+                PAGE_LOOP   0x00000b    program     static C:\Users\Stefanos\i2c\main.asm
+                   REPEAT   0x000020    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_0028   0x000028    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_0048   0x000048    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_004E   0x00004e    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_0053   0x000053    program     static C:\Users\Stefanos\i2c\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                PAGE_LOOP   0x00000b    program     static C:\Users\Stefanos\i2c\main.asm
+                   REPEAT   0x000020    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_0028   0x000028    program     static C:\Users\Stefanos\i2c\main.asm
+                     INIT   0x000029    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_SEND_BYTE   0x00003e    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_READ_BYTE   0x000043    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_0048   0x000048    program     static C:\Users\Stefanos\i2c\main.asm
+                MSSP_WAIT   0x00004c    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_004E   0x00004e    program     static C:\Users\Stefanos\i2c\main.asm
+            MSSP_WAIT_ACK   0x000051    program     static C:\Users\Stefanos\i2c\main.asm
+             _.org_0_0053   0x000053    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_SEND_NACK   0x000055    program     static C:\Users\Stefanos\i2c\main.asm
+          MSSP_SEND_START   0x000059    program     static C:\Users\Stefanos\i2c\main.asm
+        MSSP_SEND_RESTART   0x00005d    program     static C:\Users\Stefanos\i2c\main.asm
+           MSSP_SEND_STOP   0x000061    program     static C:\Users\Stefanos\i2c\main.asm
+
+
